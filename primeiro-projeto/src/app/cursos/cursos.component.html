@@ -1,1 +1,11 @@
-<p>cursos works!</p>
+<p>
+  Uol: {{linkUol}}
+</p>
+
+<ul>
+  <li>Java</li>
+  <li *ngFor="let curso of cursos">
+    {{curso}}
+  </li>
+</ul>
+
