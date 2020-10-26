@@ -80,7 +80,7 @@ Me clique
 <p>Valor Salvo: {{valorSalvo}}</p>
 <br>
 
-<span 
+<span
 (mouseover)="OnMouseOverOut()"
 (mouseout)="OnMouseOverOut()"
 [class.highlight]="isMouseOver">
@@ -91,16 +91,19 @@ Passe o mouse sobre mim
 </article>
 <article-->
 
+<!--app-meu-form></!--app-meu-form-->
 
-<section class="two-way data binding">
+<section>
   <article>
-    <h3>Two-way data binding/h3>
-       <div>
-         <input type="text"
-         [value]="nome"/>
-  
-        </div>
-    </article>
-  </section>
+
+  <h3>Input/Output Properties</h3>
+
+  <app-curso [nomeCurso]="nomeDoCurso"></app-curso>
+
+  <contador [valor]="valorInicial"
+  (mudouValor)="onMudouValor($event)"></contador>
+
+  </article>
+</section>
 
 </section>
