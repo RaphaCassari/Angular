@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-cli-libs-externas"
+    }
+  },
+  "defaultProject": "angular-cli-libs-externas",
+  "cli": {
+    "analytics": "a5befbe9-ac7b-4f99-adbb-07a84a4a4a4c"
+  }
 }
