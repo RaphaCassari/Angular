@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "meu-site": {
+    "ApiRestHttpClient": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/meu-site",
+            "outputPath": "dist/ApiRestHttpClient",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "meu-site:build"
+            "browserTarget": "ApiRestHttpClient:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "meu-site:build:production"
+              "browserTarget": "ApiRestHttpClient:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "meu-site:build"
+            "browserTarget": "ApiRestHttpClient:build"
           }
         },
         "test": {
@@ -114,19 +114,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "meu-site:serve"
+            "devServerTarget": "ApiRestHttpClient:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "meu-site:serve:production"
+              "devServerTarget": "ApiRestHttpClient:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "meu-site",
+  "defaultProject": "ApiRestHttpClient",
   "cli": {
-    "analytics": "b4ae4168-86a7-4ad9-b961-21bdab0d27f1"
+    "analytics": "ccede779-c3a8-403f-80d9-ff268fb12f49"
   }
 }
