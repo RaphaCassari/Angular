@@ -8,7 +8,7 @@ export class FundoAmareloDirective {
   constructor(
     private _elementRef: ElementRef,
     private _renderer: Renderer2
-    ) { 
+    ) {
     //console.log(this._elementRef);
     //this._elementRef.nativeElement.style.backgroundColor = 'yellow';
     //console.log(this._elementRef);

@@ -22,9 +22,10 @@ export class HighlightMouseDirective {
   }
 
   //@HostBinding('style.backgroundColor') backgroundColor: string;
+  // codigo abaixo é caso o elemento precisa de manipulação antes de setar ela
   @HostBinding('style.backgroundColor') get setColor(){
     //codigo extra;
-    return this.backgroundColor;  
+    return this.backgroundColor;
   }
   private backgroundColor: string;
 

@@ -30,7 +30,8 @@ import { NgElseDirective } from './shared/ng-else.directive';
     DiretivasCustomizadasComponent,
     HighlightMouseDirective,
     HighlightDirective,
-    NgElseDirective
+    NgElseDirective,
+    ExemploNgContentComponent
   ],
   imports: [
     BrowserModule,
